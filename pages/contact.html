@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Akashdeep Singh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  <style>
+    body {
+      font-family: "Trirong", 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+      background-image: url('../media/bgimg.jpg');   
+    }
+
+    .contact-card {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 10px 10px 20px rgb(0, 0, 0);
+      max-width: 90vw;
+      box-sizing: border-box;
+    }
+
+    .profile-pic {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #000000;
+      margin: auto;
+    }
+
+    .contact-info {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .contact-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      background-color: #000000;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      box-shadow: 5px 5px 10px rgb(56, 54, 54);
+      transition: transform 0.2s, box-shadow 0.2s;
+      min-width: 100px;
+    }
+
+    .contact-btn i {
+      margin-right: 5px;
+    }
+
+    .contact-btn:hover {
+      transform: scale(0.95);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (min-width: 800px) {
+      .contact-card {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+      }
+
+      .profile-pic {
+        margin-bottom: 0;
+        margin-right: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .contact-btn {
+        font-size: 12px;
+        padding: 10px 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="contact-card">
+    <img class="profile-pic" src="../media/dp.png" alt="Akashdeep Singh">
+    <div>
+      <h1>Akashdeep Singh</h1>
+      <h3 class="deg">Software Developer, Web Developer & Cyber Security Analyst</h3>
+      <p>Blending innovation with technical depth, I’m a CS graduate with cybersecurity training—precise, adaptable, and ready to deliver immediate results.</p>
+      <div class="contact-buttons">
+        <a href="mailto:asingh16@una.edu" class="contact-btn">
+          <i class="fas fa-envelope"></i>Email
+        </a>
+        <a href="tel:+12564438074" class="contact-btn">
+          <i class="fas fa-phone"></i>Phone
+        </a>
+        <a href="https://www.linkedin.com/in/akashdeep-singh-916851209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="contact-btn">
+          <i class="fab fa-linkedin"></i>LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
